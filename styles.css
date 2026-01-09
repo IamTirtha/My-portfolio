@@ -10,12 +10,15 @@ body {
 }
 
 header {
-  background-color: beige;
+  background-color: #FFF8F3;
+  background-image: url("../images/developer.png"), url("../images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: top left,bottom right;
+
 }
 
-.navigation h2{
+.navigation h2 {
   font-size: 45px;
-
 }
 
 .orange {
@@ -31,21 +34,20 @@ header {
   align-items: center;
 }
 
-nav .menu{
+nav .menu {
   display: flex;
   justify-content: space-between;
   list-style: none;
   gap: 51px;
   align-items: center;
-  
 }
 
-nav ul li a{
+nav ul li a {
   text-decoration: none;
   color: #7f5c44;
 }
 
-.btn{
+.btn {
   padding: 10px 20px;
   background-color: orange;
   color: white;
@@ -56,7 +58,42 @@ nav ul li a{
   font-weight: bold;
 }
 
-.btn:hover{
+.btn:hover {
   background-color: darkorange;
-  
+}
+
+#banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 47px 38px 0px 230px;
+}
+
+#banner .content {
+  height: 365px;
+  width: 585px;
+}
+
+#banner .content h3 {
+  color: #474747;
+  font-weight: 600;
+  font-size: 45px;
+}
+
+#banner .content h2 {
+  color: #474747;
+  font-weight: bold;
+  font-size: 85px;
+  margin-bottom: 20px;
+}
+
+#banner .content p {
+  color: #757575;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+#banner .photo img{
+  max-width: 584px;
+  vertical-align: middle;
 }

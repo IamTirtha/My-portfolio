@@ -97,3 +97,78 @@ nav ul li a {
   max-width: 584px;
   vertical-align: middle;
 }
+
+#about{
+  padding-top: 130px;
+  
+}
+
+#about .about-container{
+  width: 71%;
+  max-width: 1920px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #FFF8F3;
+  padding: 131px 156px;
+  
+
+}
+
+#about .section-heading h2 {
+  font-size: 45px;
+  color: #474747;
+  margin-bottom: 20px;
+}
+
+#about .section-heading p {
+  color: #757575;
+  margin-bottom: 20px;
+  line-height: 30px;
+  font-size: 20px;
+}
+
+#about .about-info{
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+#about .about-container .about-info .info-card p{
+  color: #757575;
+  line-height: 30px;
+  font-size: 20px;
+
+}
+
+#about .about-container .about-info .info-card h4{
+  color: #474747;
+  line-height: 30px;
+  font-size: 20px;
+  font-weight: bold;
+
+}
+
+#does{
+  padding-top: 130px; 
+}
+
+#does .work{
+  width: 71%;
+  max-width: 1920px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: white;
+  padding: 131px 156px;
+}
+
+#does .work h2{
+  font-size: 45px;
+  font-weight: bold;
+  color: #181818;
+}
+
+#does .work p{
+  font-size: 18px;
+  color: #757575;
+}
+

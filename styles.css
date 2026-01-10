@@ -105,7 +105,7 @@ nav ul li a {
 
 #about .about-container{
   width: 71%;
-  max-width: 1920px;
+  max-width: 1140px;
   margin: 0 auto;
   text-align: center;
   background-color: #FFF8F3;
@@ -154,11 +154,11 @@ nav ul li a {
 
 #does .work{
   width: 71%;
-  max-width: 1920px;
+  max-width: 1140px;
   margin: 0 auto;
   text-align: center;
   background-color: white;
-  padding: 131px 156px;
+  padding: 131px 230px;
 }
 
 #does .work h2{
@@ -172,3 +172,41 @@ nav ul li a {
   color: #757575;
 }
 
+#skills{
+  padding-top: 50px;
+  
+}
+
+#skills .skill-container{
+  width: 71%;
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+#skills .skill-card{
+  border: none;
+  max-width: 267px;
+  background-color: #fff;
+  
+}
+
+#skills .skill-card img{
+  padding: 32px 190px 0 33px;
+}
+
+#skills .skill-card h4{
+  font-size: 20px;
+  font-weight: bold;
+  color: #181818;
+  padding: 0px 140px 0 30px;
+}
+
+#skills .skill-card p{
+  font-size: 16px;
+  color: #757575;
+  padding: 0 33px;
+  padding-bottom: 30px;
+}

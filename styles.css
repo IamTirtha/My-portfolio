@@ -10,11 +10,11 @@ body {
 }
 
 header {
-  background-color: #FFF8F3;
-  background-image: url("../images/developer.png"), url("../images/header_bg.png");
+  background-color: #fff8f3;
+  background-image: url("../images/developer.png"),
+    url("../images/header_bg.png");
   background-repeat: no-repeat;
-  background-position: top left,bottom right;
-
+  background-position: top left, bottom right;
 }
 
 .navigation h2 {
@@ -93,25 +93,22 @@ nav ul li a {
   margin-bottom: 30px;
 }
 
-#banner .photo img{
+#banner .photo img {
   max-width: 584px;
   vertical-align: middle;
 }
 
-#about{
+#about {
   padding-top: 130px;
-  
 }
 
-#about .about-container{
+#about .about-container {
   width: 71%;
   max-width: 1140px;
   margin: 0 auto;
   text-align: center;
-  background-color: #FFF8F3;
+  background-color: #fff8f3;
   padding: 131px 156px;
-  
-
 }
 
 #about .section-heading h2 {
@@ -127,32 +124,29 @@ nav ul li a {
   font-size: 20px;
 }
 
-#about .about-info{
+#about .about-info {
   display: flex;
   justify-content: space-around;
-  
 }
 
-#about .about-container .about-info .info-card p{
+#about .about-container .about-info .info-card p {
   color: #757575;
   line-height: 30px;
   font-size: 20px;
-
 }
 
-#about .about-container .about-info .info-card h4{
+#about .about-container .about-info .info-card h4 {
   color: #474747;
   line-height: 30px;
   font-size: 20px;
   font-weight: bold;
-
 }
 
-#does{
-  padding-top: 130px; 
+#does {
+  padding-top: 130px;
 }
 
-#does .work{
+#does .work {
   width: 71%;
   max-width: 1140px;
   margin: 0 auto;
@@ -161,23 +155,22 @@ nav ul li a {
   padding: 131px 230px;
 }
 
-#does .work h2{
+#does .work h2 {
   font-size: 45px;
   font-weight: bold;
   color: #181818;
 }
 
-#does .work p{
+#does .work p {
   font-size: 18px;
   color: #757575;
 }
 
-#skills{
+#skills {
   padding-top: 50px;
-  
 }
 
-#skills .skill-container{
+#skills .skill-container {
   width: 71%;
   max-width: 1140px;
   margin: 0 auto;
@@ -186,44 +179,43 @@ nav ul li a {
   gap: 24px;
 }
 
-#skills .skill-card{
+#skills .skill-card {
   border: none;
   max-width: 267px;
   background-color: #fff;
-  
 }
 
-#skills .skill-card img{
+#skills .skill-card img {
   padding: 32px 190px 0 33px;
 }
 
-#skills .skill-card h4{
+#skills .skill-card h4 {
   font-size: 20px;
   font-weight: bold;
   color: #181818;
   padding: 0px 140px 0 30px;
 }
 
-#skills .skill-card p{
+#skills .skill-card p {
   font-size: 16px;
   color: #757575;
   padding: 0 33px;
   padding-bottom: 30px;
 }
 
-#summary{
+#summary {
   padding-top: 114px;
   /* background-color: #f8daa9; */
 }
 
-#summary .summary-head{
+#summary .summary-head {
   width: 71%;
   max-width: 1140px;
   margin: 0 auto;
   text-align: center;
 }
 
-#summary .summary-container{
+#summary .summary-container {
   width: 71%;
   max-width: 1140px;
   margin: 0 auto;
@@ -233,45 +225,118 @@ nav ul li a {
   margin-top: 113px;
 }
 
-#summary .summary-head h2{
+#summary .summary-head h2 {
   font-size: 35px;
   font-weight: bold;
-  color:#181818;
-
+  color: #181818;
 }
 
-#summary .summary-container h3{
+#summary .summary-container h3 {
   font-size: 30px;
   font-weight: bold;
   color: #474747;
   margin-bottom: 30px;
-
 }
 
-#summary .summary-container h4{
+#summary .summary-container h4 {
   font-size: 25px;
   font-weight: bold;
   color: #474747;
   margin-bottom: 10px;
-
 }
 
-#summary .summary-container .varsity, .company{
+#summary .summary-container .varsity,
+.company {
   font-size: 20px;
   font-weight: 600;
   color: #757575;
   margin-bottom: 20px;
-  
-
 }
 
-#summary .summary-container .description{
+#summary .summary-container .description {
   font-size: 16px;
   line-height: 28px;
   color: #757575;
 }
 
-#summary hr{
+#summary hr {
   margin: 30px 0;
+}
+
+#summary .btn {
+  margin: 30px 650px 113px 650px;
+}
+
+#footer {
+  background-color: #FFF8F3;
+}
+
+#footer .footer-content {
+  width: 71%;
+  max-width: 1140px;
+  margin: 0 auto;
+  text-align: start;
+  padding: 130px 0 130px 0;
+  color: #181818;
+  display: flex;
+  justify-content: space-between;
+  gap: 117px;
+}
+
+#footer .footer-content .social-link ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  cursor: pointer;
+}
+
+#footer .footer-form,
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#footer .footer-content .footer-connect {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 585px;
+}
+
+#footer .footer-content .footer-connect h5 {
+  font-size: 35px;
+  font-weight: bold;
+}
+
+#footer .footer-content .footer-connect p {
+  font-size: 16px;
+  color: #757575;
+}
+
+#footer .footer-content .footer-form h3 {
+  font-size: 35px;
+  font-weight: bold;
+}
+
+#footer .footer-form input{
+  border: none;
+  border-radius: 5px;
+  background-color: white;
+  padding: 15px;
+  height: 64px;
+  width: 461px;
+
+}
+
+#footer .footer-form .Write{
+  height: 180px;
+
+}
+
+#footer .footer-form .btn{
+  height: 64px;
+  width: 150px;
+
 }
 
